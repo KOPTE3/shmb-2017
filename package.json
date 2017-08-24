@@ -1,0 +1,32 @@
+{
+  "name": "shmb-2017",
+  "version": "0.1.0",
+  "description": "Материалы к мастер-классам ШМБ-2017",
+  "scripts": {
+    "start": "firebase serve",
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOPTE3/shmb-2017.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ostapenko Anatoliy",
+    "email": "akamandusa@yandex.ru"
+  },
+  "contributors": [
+    {
+      "name": "Ostapenko Anatoliy",
+      "email": "akamandusa@yandex.ru"
+    },
+    {
+      "name": "Titova Marina"
+    }
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/KOPTE3/shmb-2017#readme",
+  "devDependencies": {
+    "firebase-tools": "^3.9.2"
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Welcome to Firebase Hosting</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<!-- update the version number as needed -->
+	<script defer src="/__/firebase/4.3.0/firebase-app.js"></script>
+	<!-- include only the Firebase features as you need -->
+	<script defer src="/__/firebase/4.3.0/firebase-auth.js"></script>
+	<script defer src="/__/firebase/4.3.0/firebase-database.js"></script>
+	<script defer src="/__/firebase/4.3.0/firebase-messaging.js"></script>
+	<script defer src="/__/firebase/4.3.0/firebase-storage.js"></script>
+	<!-- initialize the SDK after all desired features are loaded -->
+	<script defer src="/__/firebase/init.js"></script>
+
+	<style media="screen">
+		body {
+			background: #ECEFF1;
+			color: rgba(0, 0, 0, 0.87);
+			font-family: Roboto, Helvetica, Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		#message {
+			background: white;
+			max-width: 360px;
+			margin: 100px auto 16px;
+			padding: 32px 24px;
+			border-radius: 3px;
+		}
+
+		#message h2 {
+			color: #ffa100;
+			font-weight: bold;
+			font-size: 16px;
+			margin: 0 0 8px;
+		}
+
+		#message h1 {
+			font-size: 22px;
+			font-weight: 300;
+			color: rgba(0, 0, 0, 0.6);
+			margin: 0 0 16px;
+		}
+
+		#message p {
+			line-height: 140%;
+			margin: 16px 0 24px;
+			font-size: 14px;
+		}
+
+		#message a {
+			display: block;
+			text-align: center;
+			background: #039be5;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: white;
+			padding: 16px;
+			border-radius: 4px;
+			margin-bottom: 1em;
+		}
+
+		#message a.ask {
+			background: #c5c5c5;
+			font-size: 13px;
+			font-weight: bold;
+		}
+
+		#message, #message a {
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		}
+
+		@media (max-width: 540px) {
+			body, #message {
+				margin-top: 0;
+				background: white;
+				box-shadow: none;
+			}
+
+			body {
+				border-top: 16px solid #ffa100;
+			}
+		}
+	</style>
+</head>
+<body>
+<div id="message">
+	<h2>Технопарк, ШМБ-2017</h2>
+	<h1>Приветствую тебя на ШМБ-2017!</h1>
+	<p>Ссылки на мастер-классы:</p>
+	<a target="_blank" href="/workshop/first">Как начать свой путь в IT? 🤔 Разработка web-приложений: от идеи до продакшена</a>
+	<a target="_blank" href="/workshop/second">Хочу быть крутым developer 😎. Что делать?</a>
+	<a href="/ask-question" class="ask">Остались вопросы? <strong>Задавай!</strong></a>
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		// // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+		// // The Firebase SDK is initialized and available here!
+		//
+		// firebase.auth().onAuthStateChanged(user => { });
+		// firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+		// firebase.messaging().requestPermission().then(() => { });
+		// firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+		//
+		// // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+		try {
+			const app = window.firebase.app();
+		} catch (e) {
+			console.error(e);
+		}
+	});
+</script>
+</body>
+</html>
