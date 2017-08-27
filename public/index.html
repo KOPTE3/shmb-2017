@@ -59,9 +59,9 @@
 			text-transform: uppercase;
 			text-decoration: none;
 			color: white;
-			padding: 16px;
+			padding: 8px 16px;
 			border-radius: 4px;
-			margin-bottom: 1em;
+			margin-bottom: 0.7em;
 		}
 
 		#message a.ask {
@@ -88,31 +88,17 @@
 	</style>
 </head>
 <body>
-<div id="message">
-	<h2>Технопарк, ШМБ-2017</h2>
-	<h1>Приветствую тебя на ШМБ-2017!</h1>
-	<p>Ссылки на мастер-классы:</p>
-	<a target="_blank" href="/workshop/first">Как начать свой путь в IT? 🤔 Разработка web-приложений: от идеи до продакшена</a>
-	<a target="_blank" href="/workshop/second">Хочу быть крутым developer 😎 Что делать?</a>
-	<a href="/Технопарк.pptx">Презентация про Технопарк</a>
-	<a href="/contacts" class="ask">Остались вопросы? <strong>Задавай!</strong></a>
-</div>
 
-<script>
-	document.addEventListener('DOMContentLoaded', function () {
-		// // The Firebase SDK is initialized and available here!
-		//
-		// firebase.auth().onAuthStateChanged(user => { });
-		// firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-		// firebase.messaging().requestPermission().then(() => { });
-		// firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+	<div id="message">
+		<h2>Технопарк, ШМБ-2017</h2>
+		<h1>Приветствую тебя на ШМБ-2017!</h1>
+		<p>Ссылки на мастер-классы:</p>
+		<a target="_blank" href="/workshop/first">Как начать свой путь в IT? 🤔 Разработка web-приложений: от идеи до продакшена</a>
+		<a target="_blank" href="/workshop/second">Хочу быть крутым developer 😎 Что делать?</a>
+		<a href="/Технопарк.pptx">Презентация про Технопарк</a>
+		<a href="/tp/curriculum">Предметы в Технопарке</a>
+		<a href="/contacts" class="ask">Остались вопросы? <strong>Задавай!</strong></a>
+	</div>
 
-		try {
-			const app = window.firebase.app();
-		} catch (e) {
-			console.error(e);
-		}
-	});
-</script>
 </body>
 </html>
