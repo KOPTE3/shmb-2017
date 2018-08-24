@@ -1,7 +1,7 @@
-# shmb-2017
-> Материалы к мастер-классам ШМБ-2017
+# shmb-2018
+> Материалы к мастер-классам ШМБ-2018
 
-Open [shmb-2017.firebaseapp.com](https://shmb-2017.firebaseapp.com/)
+Open [shmb-2018.firebaseapp.com](https://shmb-2018.firebaseapp.com/)
 
 
 ### Для разработчиков:

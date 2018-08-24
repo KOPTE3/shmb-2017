@@ -1,14 +1,14 @@
 {
-  "name": "shmb-2017",
-  "version": "0.1.0",
-  "description": "Материалы к мастер-классам ШМБ-2017",
+  "name": "shmb-2018",
+  "version": "0.2.0",
+  "description": "Материалы к мастер-классам ШМБ-2018",
   "scripts": {
     "start": "firebase serve",
     "deploy": "firebase deploy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KOPTE3/shmb-2017.git"
+    "url": "git+https://github.com/KOPTE3/shmb-2018.git"
   },
   "keywords": [],
   "author": {
@@ -25,8 +25,8 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/KOPTE3/shmb-2017#readme",
+  "homepage": "https://github.com/KOPTE3/shmb-2018#readme",
   "devDependencies": {
-    "firebase-tools": "^3.9.2"
+    "firebase-tools": "^4.2.0"
   }
 }
