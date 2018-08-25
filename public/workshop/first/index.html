@@ -1,63 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Как начать свой путь в IT? 🤔 Разработка web-приложений: от идеи до продакшена</title>
+	<title>Как начать свой путь в IT? 🤔</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<script>
-		'use strict';
-
-		const gcd = (a, b) => (b === 0) ? a : gcd(b, a % b);
-		const w = screen.width;
-		const h = screen.height;
-		const r = gcd(w, h);
-
-		console.log(`${w}x${h}`);
-		let aspect = `${w / r}x${h / r}`;
-		console.log(aspect);
-
-		const ratios = ['8x5', '4x3', '6x5', '5x3', '5x4', '16x9'];
-		if (!ratios.includes(aspect)) {
-			aspect = ratios[0];
-		}
-
-		if (['localhost', '127.0.0.1'].includes(window.location.hostname)) {
-			aspect = '4x3';
-		}
-
-		document.write(`<link rel="stylesheet" href="/lib/shower/themes/technopark/styles/screen-${'4x3'}.css">`);
-
-	</script>
-
-	<link rel="stylesheet" href="/lib/hljs/styles/github.css">
-
-	<style>
-		.slide pre {
-			font-size: 100%;
-		}
-
-		.slide h2 {
-			margin-bottom: 48px;
-		}
-	</style>
+	<link rel="stylesheet" href="/lib/main.css">
 
 </head>
 <body class="shower list">
 
 <header class="caption">
-	<h1>Как начать свой путь в IT 🤔? <br/>
-		<small style="font-size: smaller">Разработка web-приложений: от идеи до продакшена</small>
-	</h1>
+	<h1>Как начать свой путь в IT 🤔?</h1>
 	<p>ШМБ-2018, Технопарк</p>
 </header>
 
 <section class="slide">
 	<h2 class="shout">
 		<small style="font-size:105%">Как начать свой путь в IT 🤔</small>
-		<br/>
-		<small style="display: block; font-size: 56px;">Разработка web-приложений: от идеи до продакшена</small>
 	</h2>
 </section>
 
@@ -67,52 +28,346 @@
 </section>
 
 <section class="slide">
-	<h2>Обо мне</h2>
-	<div style="position:relative;width: 100%; height: 53%;overflow: hidden; margin-top: 35px;">
-		<img class="place" src="me.jpg" style="transform-origin: center;transform: translate(-54%,-38%) scale(0.7);">
+	<h2>Давайте знакомиться!</h2>
+	<div style="position: absolute; left: -1px; top: 16%; width: 105%; height: 50%; overflow: hidden; box-shadow: 0 0 24px -4px rgba(0, 0, 0, 1);">
+		<img class="place" src="bmstu.jpg"
+			 style="transform-origin: center; transform: translate(-50%,-45%) scale(1.05);">
 	</div>
-	<ul>
-		<li>Студент МГТУ (ИУ8, 5 курс)</li>
-		<li>Работаю в Mail.RU Frontend-разработчиком, в проекте Почта</li>
-		<li>Преподаю в Технопарке курс "Frontend-разработка"</li>
+	<ul lang="ru" style="margin-top: 46%;">
+		<li>Меня зовут Остапенко Анатолий, мне 21</li>
+		<li>Сейчас я учусь на 6 курсе <strong>МГТУ им. Н. Э. Баумана</strong>: факультет <em>"Информатика и системы Управления"</em>, кафедра <em>"Информационная безопасность"</em></li>
 	</ul>
+</section>
+
+<section class="slide">
+	<h2>Давайте знакомиться!</h2>
+	<div style="position: absolute; left: -1px; top: 16%; width: 101%; height: 50%; overflow: hidden; box-shadow: 0 0 24px -4px rgba(0, 0, 0, 1);">
+		<img class="place" src="skylight.png"
+			 style="transform-origin: center; transform: translate(-48%,-48%) scale(0.89);">
+	</div>
+	<ul lang="ru" style="margin-top: 46%;">
+		<li>Стаж программирования &mdash; чуть больше шести лет</li>
+		<li>С третьего курса <strong>работаю в компании Mail.Ru Group <em>Frontend-разработчиком</em></strong>:
+			разрабатываю сервис
+			<mark>Почта@Mail.Ru</mark> &mdash; <a href="https://e.mail.ru/" target="_blank">https://e.mail.ru/</a></li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Давайте знакомиться!</h2>
+	<div style="position: absolute; left: -1px; top: 16%; width: 101%; height: 50%; overflow: hidden; box-shadow: 0 0 24px -4px rgba(0, 0, 0, 1);">
+		<img class="place" src="tech.jpg"
+			 style="transform-origin: center; transform: translate(-50%,-57%) scale(1.08);">
+	</div>
+	<ul lang="ru" style="margin-top: 46%;">
+		<li>Ведущий преподаватель курса Frontend-разработки в <strong><a href="https://park.mail.ru/pages/about/" target="_blank">Технопарке&nbsp;Mail.Ru</a></strong>
+	</ul>
+</section>
+
+<section class="slide question nologo">
+	<div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;">
+		<img class="place" src="whoami.jpg"
+			 style="transform-origin: center; transform: translate(-50%,-50%) scale(0.86);">
+	</div>
+</section>
+
+<section class="slide question">
+	<div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;">
+		<img class="place" src="stark.jpg"
+			 style="transform-origin: center; transform: translate(-52%,-50%) scale(0.64);">
+	</div>
+	<h2 style="margin: 25% auto; padding: 0;"><span
+		style="color: black; font-size: 90px; display: inline-block; text-align: center; font-weight: 900; text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.7);">Гений, миллиардер, плейбой, филантроп</span>
+	</h2>
 </section>
 
 <section class="slide question">
 	<style>
 		blockquote.small:before {
-			font-size: 5em;
-			margin-left: -0.33em;
+			font-size: 4.5em;
+			margin-left: -0.36em;
 		}
 	</style>
 	<h2 style="margin-left: 68px;"><blockquote class="small">Как начать свой путь в IT?</blockquote></h2>
 </section>
 
-<section class="slide">
-	<h2>Что такое IT-сфера?</h2>
-	<blockquote>
-		<p><strong>IT-сфера (сфера информационных технологий)</strong> &mdash; широкий класс дисциплин и областей деятельности, занимающихся управлением и обработкой данных с применением вычислительной техники</p>
-	</blockquote>
-</section>
-
 <section class="slide question">
-	<div style="position:relative;width: 100%; height: 60%;">
+	<div style="position:relative;width: 100%; height: 60%; top: 2%;">
 		<img class="place" src="it.jpg" style="transform-origin: center;transform: translate(-50%,-38%) scale(0.73);">
 	</div>
 </section>
 
+<section class="slide">
+	<h2>Вжух! и снова надо учиться</h2>
+	<div style="margin-top: 20%; transform: scale(1.2);">
+		<div style="display: inline-block; width: 48%; float: left; line-height: 1.2; font-size: 36px; text-align: right;">
+			Профессии будут кардинально меняться или исчезать
+			<mark>каждые</mark>
+		</div>
+		<div style="display: inline-block; width: 51%; float: right; font-size: 142px; line-height: 1; letter-spacing: -1px; font-weight: bold;"
+			 class="color-light"><span style="letter-spacing: -10px;"><span
+			style="letter-spacing: -18px;">1</span>0 Л</span>ЕТ
+		</div>
+	</div>
+</section>
+
+<section class="slide">
+	<h2>Хайп быстрее света</h2>
+	<style>
+		.list1 li.tri::after {
+			content: " ";
+			display: block;
+			width: 1px;
+			height: 0;
+			border-top: 26px solid transparent;
+			border-bottom: 24px solid transparent;
+			border-left: 30px solid rgba(249, 215, 216, 1);
+			position: relative;
+			margin-top: -48px;
+			left: calc(100% - 0.5px);
+			z-index: 0;
+		}
+
+		.list1 li:nth-child(1)::after {
+			left: calc(100% - 0.5px);
+		}
+
+		.list1 li:nth-child(2)::after {
+			left: calc(30% - 5px);
+		}
+
+		.list1 li:nth-child(3)::after {
+			left: calc(20% - 6px);
+		}
+
+		.list1 li:nth-child(4)::after {
+			left: calc(15% - 6px);
+		}
+
+		.list1 li:nth-child(5)::after {
+			left: calc(13% - 6px);
+		}
+
+		.list1 li:nth-child(6)::after {
+			left: calc(12% - 6px);
+		}
+
+		.list1 li:nth-child(7)::after {
+			left: calc(11% - 6px);
+		}
+
+		li > span {
+			position: relative;
+			z-index: 1;
+		}
+
+	</style>
+	<ul lang="ru" class="small-content list1">
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 100%, white 0%)">
+			<span><strong>Огонь</strong> &mdash; <em>590 тыс. лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 30%, white 0%);">
+			<span><strong>Электричество</strong> &mdash; <em>80 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 20%, white 0%);">
+			<span><strong>Телевидение</strong> &mdash; <em>60 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 15%, white 0%);">
+			<span><strong>Персональный компьютер</strong> &mdash; <em>20 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 13%, white 0%);">
+			<span><strong>Сотовая связь</strong> &mdash; <em>18 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 12%, white 0%);">
+			<span><strong>Интернет</strong> &mdash; <em>15 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 11%, white 0%);">
+			<span><strong>Смартфоны</strong> &mdash; <em>7 лет</em></span></li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Технологии тоже смертны</h2>
+	<style>
+		.list2 li.tri::after {
+			content: " ";
+			display: block;
+			width: 1px;
+			height: 0;
+			border-top: 26px solid transparent;
+			border-bottom: 24px solid transparent;
+			border-left: 30px solid rgba(249, 215, 216, 1);
+			position: relative;
+			margin-top: -48px;
+			left: calc(100% - 0.5px);
+			z-index: 0;
+		}
+
+		.list2 li:nth-child(1)::after {
+			left: calc(100% - 0.5px);
+		}
+
+		.list2 li:nth-child(2)::after {
+			left: calc(30% - 5px);
+		}
+
+		.list2 li:nth-child(3)::after {
+			left: calc(15% - 6px);
+		}
+
+		.list2 li:nth-child(4)::after {
+			left: calc(8% - 6px);
+		}
+
+		.list2 li:nth-child(5)::after {
+			left: calc(5% - 6px);
+		}
+
+		li > span {
+			position: relative;
+			z-index: 1;
+		}
+
+	</style>
+	<ul lang="ru" class="small-content list2">
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 100%, white 0%)">
+			<span><strong>Огонь</strong> &mdash; <em>100 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 30%, white 0%);">
+			<span><strong>ДВС</strong> &mdash; <em>30 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 15%, white 0%);">
+			<span><strong>Телевидение</strong> &mdash; <em>15 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 8%, white 0%);">
+			<span><strong>Смартфоны</strong> &mdash; <em>8 лет</em></span></li>
+		<li class="tri"
+			style="padding-left: 6px; background: linear-gradient(to right, rgba(249, 215, 216, 1) 0%, rgba(249, 215, 216, 1) 5%, white 0%);">
+			<span><strong>Персональный компьютер</strong> &mdash; <em>5 лет</em></span></li>
+	</ul>
+	<div class="note">По данным буйной фантазии докладчика</div>
+</section>
+
+<section class="slide">
+	<h2>Профессии без будущего</h2>
+	<ul class="double">
+		<li>Бухгалтер</li>
+		<li>Библиотекарь</li>
+		<li>Испытатель</li>
+		<li>Нотариус</li>
+		<li>Банкир-операционист</li>
+		<li>Экскурсовод</li>
+		<li>Журналист</li>
+		<li>Переводчик</li>
+		<li>Авиадиспетчер</li>
+		<li>Штурман</li>
+		<li>Корректор</li>
+		<li>Курьер</li>
+		<li>Риэлтор</li>
+		<li>Турагент</li>
+		<li>Инспектор ДПС</li>
+		<li>Оператор call-центра</li>
+		<li>Дальнобойщик</li>
+		<li><em>etc...</em></li>
+	</ul>
+	<div class="note" style="display: inline-block;">Многочисленные исследования и статьи: <a
+		href="https://www.computerworld.com/article/3159706/it-careers/robot-reporter-gets-first-article-published-in-china.html"
+		target="_blаnk">раз</a>, <a
+		href="https://www.vedomosti.ru/management/articles/2013/05/28/umnye_kompyutery_umelyeroboty_lishnie_lyudi"
+		target="_blаnk">два</a>, <a
+		href="https://www.computerworld.com/article/3136675/it-careers/robotics-driverless-tech-are-taking-over-mining-jobs.html"
+		target="_blаnk">три</a>...</div>
+</section>
+
+<section class="slide">
+	<h2>Какие профессии в зоне риска?</h2>
+	<ul class="small-content" style="transform: scale(1.5); transform-origin: left top;">
+		<li>Простые алгоритмы действий</li>
+		<li>Много данных для анализа</li>
+		<li>Простое посредничество</li>
+		<li>Легко автоматизируются</li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Качества, которые останутся за человеком</h2>
+	<ul class="small-content" style="transform: scale(1.5); transform-origin: left top;">
+		<li>Эмпатия</li>
+		<li>Любопытство</li>
+		<li>Творчество</li>
+		<li>Нестандартное мышление</li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Инфраструктура &mdash; наше всё</h2>
+	<ul class="small-content" style="transform: scale(1.5); transform-origin: left top;">
+		<li>Электроэнергетика</li>
+		<li>Водоснабжение и водоотведение</li>
+		<li>Транспорт</li>
+		<li><mark><strong>Информационные технологии</strong></mark></li>
+		<li class="note">... и другие, без которых всё рухнет</li>
+	</ul>
+</section>
+
 <section class="slide question">
-	<h2>Как стать IT-шником?</h2>
+	<h2>Как стать IT-специалистом?</h2>
+</section>
+
+<section class="slide">
+	<h2>Типичный IT-специалист</h2>
+	<div style="position: absolute; left: 0; top: 20%; width: 100%; height: 100%;">
+		<img class="place" src="nerd.jpg" style="transform-origin: center; transform: translate(-50%,-63%) scale(0.5);">
+	</div>
+</section>
+
+<section class="slide">
+	<h2>Немного скучной истории</h2>
+	<div style="position: absolute; left: 0; top: 15%; width: 100%; height: 100%;">
+		<img class="place" src="charlz.jpg" style="transform-origin: center; transform: translate(-125%,-91%) scale(1.13);">
+		<strong style="position: absolute; transform-origin: center; transform: translate(60%, 590%) scale(1); font-size: 36px;">Чарлз Бэ́ббидж</strong>
+	</div>
+	<div style="position: absolute; left: 0; top: 15%; width: 100%; height: 100%;">
+		<img class="place" src="ada.jpg" style="transform-origin: center; transform: translate(0%,-80%) scale(0.75);">
+		<strong style="position: absolute; transform-origin: center; transform: translate(277%, 590%) scale(1); font-size: 36px;">Ада Лавлейс</strong>
+	</div>
+</section>
+
+<section class="slide">
+	<h2>Эволюция IT-шников</h2>
+	<div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%;">
+		<img class="place" src="graph.png" style="transform-origin: center; transform: translate(-50%,-50%) scale(0.9);">
+	</div>
+</section>
+
+<section class="slide">
+	<h2>Как стать IT-специалистом?</h2>
+	<ul class="small-content" style="transform: scale(1.5); transform-origin: left top;">
+		<li>Хорошо учиться в школе</li>
+		<li>Знать математику на отлично</li>
+		<li>Закончить престижный <em style="opacity: 0.3">(привет, МГТУ)</em> ВУЗ <br> по специальности</li>
+	</ul>
+</section>
+
+<section class="slide">
+	<h2>Как стать IT-специалистом?</h2>
+	<ul class="small-content" style="transform: scale(1.5); transform-origin: left top;">
+		<li><s>Хорошо учиться в школе</s></li>
+		<li><s>Знать математику на отлично</s></li>
+		<li><s>Закончить престижный ВУЗ по специальности</s></li>
+	</ul>
 </section>
 
 <section class="slide">
 	<h2>Несколько простых шагов</h2>
-	<ul>
+	<ul class="small-content" style="transform: scale(1.5); transform-origin: left top; width: 66%;">
 		<li>Выбрать сферу деятельности</li>
 		<li>Определиться с языком программирования</li>
 		<li>Изучать программирование, разработку, совершенствовать свои навыки</li>
 		<li>?????</li>
-		<li>PROFIT!</li>
+		<li><mark>PROFIT!</mark></li>
 	</ul>
 </section>
 
@@ -149,6 +404,10 @@
 </section>
 
 <section class="slide question">
+	<h2>Data-scientist'ы<br><span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; специалисты по анализу данных и машинному обучению</span></h2>
+</section>
+
+<section class="slide question">
 	<h2>Специалисты по&nbsp;ИБ<br><span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; гарантируют безопасность продукта</span></h2>
 </section>
 
@@ -165,7 +424,7 @@
 </section>
 
 <section class="slide question">
-	<h2>System<br><span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; системная разработка (OS, drivers)</span></h2>
+	<h2>System<br><span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; системная разработка (OS,&nbsp;drivers)</span></h2>
 </section>
 
 <section class="slide question">
@@ -182,7 +441,11 @@
 </section>
 
 <section class="slide question">
-	<h2>си / С++</h2>
+	<h2>си / С++ / Rust</h2>
+</section>
+
+<section class="slide question">
+	<h2>.NET</h2>
 </section>
 
 <section class="slide question">
@@ -205,8 +468,8 @@
 	<h2>JavaScript</h2>
 </section>
 
-<section class="slide question">
-	<h2>Что нужно знать?</h2>
+<section class="slide">
+	<h2 class="shout">Что ещё нужно знать?</h2>
 </section>
 
 <section class="slide question">
@@ -226,50 +489,75 @@
 </section>
 
 <section class="slide question">
+	<h2>Английский язык<br><span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; техническая литература, документация, IT-сообщество</span></h2>
+</section>
+
+<section class="slide question">
 	<h2>Много чего ещё...<br><span style="font-size: 40%; display: inline-block; font-weight: 100;">&mdash; реляционная алгебра, теория массового обслуживания, нейронные сети, машинное обучение, распределённые системы, многопоточные системы, паттерны проектирования...</span></h2>
 </section>
 
 <section class="slide">
-	<h2 class="shout">WEB-разработка</h2>
+	<h2 class="shout">Где всему этому учиться?</h2>
 </section>
 
-<section class="slide">
-	<h2>Что есть Веб-приложение?</h2>
-	<blockquote>
-		<p class="small-content"><b>Веб-приложение </b> &mdash; клиент-серверное приложение, в котором клиентом выступает браузер, а сервером — веб-сервер. Логика веб-приложения распределена между сервером и клиентом, хранение данных осуществляется, преимущественно, на сервере, обмен информацией происходит по сети</p>
-	</blockquote>
+<section class="slide question">
+	<h2><span style="font-size: 80%">"С" &mdash; <em>самообразование</em></span></h2>
 </section>
 
-<section class="slide">
-	<h2>Клиент-серверная модель</h2>
-	<div style="position:relative;width: 100%; height: 80%; overflow: hidden"><img class="place" src="csm-large.png" alt="Клиент-серверная модель" style="transform-origin: center;transform: translate(-50%,-53%) scale(0.55);"></div>
+<section class="slide question">
+	<h2><span style="font-size: 80%">Mail.Ru Group для образования &mdash; <a href="https://corp.mail.ru/ru/company/education/" target="_blank">link</a></span></h2>
 </section>
 
-<section class="slide">
-	<h2>Устройство современных сайтов</h2>
-	<p class="small-content"></p>
-	<ul>
-		<li>Код, который исполняется в браузере</li>
-		<li>Веб-сервер, отвечающий на запрос</li>
-		<li>Сервер с бизнес-логикой</li>
-		<li>База данных</li>
-	</ul>
+<section class="slide question">
+	<h2>Что ещё?<br>
+		<span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; читайте статьи, например, на <a
+			href="https://habr.com/top/" target="_blank" style="color: #e1373e;">habr.com</a>, <a
+			href="https://medium.com/tag/information-technology" target="_blank" style="color: #e1373e;">medium.com</a></span>
+		<span style="font-size: 55%; display: inline-block; font-weight: 100;">&mdash; посещайте и смотрите выступления на конференциях</span>
+			</h2>
 </section>
 
-<section class="slide">
-	<h2>Что есть Frontend-разработка?</h2>
-	<blockquote>
-		<p class="small-content"><b>Frontend-разработка</b> &mdash; это работа по созданию публичной части веб-приложения, с которой непосредственно контактирует пользователь и функционала который обычно выполняется на стороне клиента</p>
-	</blockquote>
-	<p>Отсюда старое название <em>"client-side"</em></p>
-</section>
+<!--<section class="slide">-->
+	<!--<h2 class="shout">WEB-разработка</h2>-->
+<!--</section>-->
 
-<section class="slide">
-	<h2>Что есть Backend-разработка?</h2>
-	<blockquote>
-		<p class="small-content"><b>Backend-разработка</b> &mdash; это создание той части web-приложения, которая отвечает за бизнес-логику и обработку пользовательских запросов</p>
-	</blockquote>
-</section>
+<!--<section class="slide">-->
+	<!--<h2>Что есть Веб-приложение?</h2>-->
+	<!--<blockquote>-->
+		<!--<p class="small-content"><b>Веб-приложение </b> &mdash; клиент-серверное приложение, в котором клиентом выступает браузер, а сервером — веб-сервер. Логика веб-приложения распределена между сервером и клиентом, хранение данных осуществляется, преимущественно, на сервере, обмен информацией происходит по сети</p>-->
+	<!--</blockquote>-->
+<!--</section>-->
+
+<!--<section class="slide">-->
+	<!--<h2>Клиент-серверная модель</h2>-->
+	<!--<div style="position:relative;width: 100%; height: 80%; overflow: hidden"><img class="place" src="csm-large.png" alt="Клиент-серверная модель" style="transform-origin: center;transform: translate(-50%,-53%) scale(0.55);"></div>-->
+<!--</section>-->
+
+<!--<section class="slide">-->
+	<!--<h2>Устройство современных сайтов</h2>-->
+	<!--<p class="small-content"></p>-->
+	<!--<ul>-->
+		<!--<li>Код, который исполняется в браузере</li>-->
+		<!--<li>Веб-сервер, отвечающий на запрос</li>-->
+		<!--<li>Сервер с бизнес-логикой</li>-->
+		<!--<li>База данных</li>-->
+	<!--</ul>-->
+<!--</section>-->
+
+<!--<section class="slide">-->
+	<!--<h2>Что есть Frontend-разработка?</h2>-->
+	<!--<blockquote>-->
+		<!--<p class="small-content"><b>Frontend-разработка</b> &mdash; это работа по созданию публичной части веб-приложения, с которой непосредственно контактирует пользователь и функционала который обычно выполняется на стороне клиента</p>-->
+	<!--</blockquote>-->
+	<!--<p>Отсюда старое название <em>"client-side"</em></p>-->
+<!--</section>-->
+
+<!--<section class="slide">-->
+	<!--<h2>Что есть Backend-разработка?</h2>-->
+	<!--<blockquote>-->
+		<!--<p class="small-content"><b>Backend-разработка</b> &mdash; это создание той части web-приложения, которая отвечает за бизнес-логику и обработку пользовательских запросов</p>-->
+	<!--</blockquote>-->
+<!--</section>-->
 
 <section class="slide">
 	<h2 class="shout">Всем спасибо!</h2>
@@ -279,6 +567,7 @@
 <script src="/lib/shower/shower.min.js"></script>
 <script src="/lib/hljs/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
+<script src="/reload/reload.js"></script>
 
 </body>
 </html>

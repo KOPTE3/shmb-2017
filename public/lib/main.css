@@ -1,22 +1,25 @@
 @import "normalize.css";
-@import "modest.css";
+@import "shower/styles/screen-4x3.css";
 @import "hljs/styles/github.css";
 
-body {
-	padding: 1rem;
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext');
+
+section.slide.first small {
+	display: inline-block;
+	font-size: 38px;
+	font-weight: 100;
 }
 
-h1 {
-	font-weight: bold;
+section.slide.first small a {
+	font-size: 42px;
+	font-weight: 500;
 }
 
-#main-content {
-	display: block;
-	margin-top: 12vh;
-	min-height: 70vh;
-	/*overflow-y: hidden;*/
+.slide pre {
+	font-size: 100%;
 }
 
-footer {
-	text-align: center;
+.slide h2 {
+	margin-bottom: 48px;
 }
